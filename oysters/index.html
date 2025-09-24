@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あや牡蠣養殖株式会社</title>
+    <!--OGP-->
+    <meta property="og:title" content="あや牡蠣養殖株式会社" />
+    <meta property="og:image" content="https://s6.imgcdn.dev/YiWJBL.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:description" content="あや牡蠣養殖株式会社は、消費者に寄り添った
+低価格、高い安全性、新鮮度の高い旨味を
+最大限引き出している消費者第一の会社です。" />
+    <meta property="og:site_name" content="あや牡蠣養殖株式会社" />
+    <!--Twitter Card-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="あや牡蠣養殖株式会社" />
+    <meta name="twitter:description" content="あや牡蠣養殖株式会社は、消費者に寄り添った
+低価格、高い安全性、新鮮度の高い旨味を
+最大限引き出している消費者第一の会社です。" />
+    <meta name="twitter:image" content="https://s6.imgcdn.dev/YiWJBL.jpg" />
+    <title>あや牡蠣養殖株式会社</title>
+    <link rel="icon" href="https://s6.imgcdn.dev/YidDMw.jpg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2eXy4l1P8V/Q2V2jR/9U/J4R/M5C1U2V2J4vY4w4w4w4w4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        /* PC向けに中央揃えと最大幅を設定 */
+        .container {
+            max-width: 1200px;
+        }
+        /* Mobile Menu */
+        @media (max-width: 767px) {
+            #mobile-menu {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-lg py-4 fixed top-0 w-full z-10">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#hero" class="text-2xl font-bold text-amber-600">
+                あや牡蠣養殖株式会社
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-amber-600 transition-colors duration-300">会社概要</a>
+                <a href="#business" class="text-gray-600 hover:text-amber-600 transition-colors duration-300">事業内容</a>
+                <a href="#contact" class="text-gray-600 hover:text-amber-600 transition-colors duration-300">お問い合わせ</a>
+            </nav>
+            <button id="menu-button" class="md:hidden text-gray-600 hover:text-amber-600 focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed inset-0 bg-white z-20 transform -translate-x-full transition-transform duration-300 md:hidden">
+        <div class="flex justify-end p-6">
+            <button id="close-menu" class="text-gray-600 hover:text-amber-600 focus:outline-none">
+                <i class="fas fa-times text-2xl"></i>
+            </button>
+        </div>
+        <nav class="flex flex-col items-center space-y-8 mt-12 text-2xl">
+            <a href="#about" class="text-gray-600 hover:text-amber-600 transition-colors duration-300" onclick="hideMenu()">会社概要</a>
+            <a href="#business" class="text-gray-600 hover:text-amber-600 transition-colors duration-300" onclick="hideMenu()">事業内容</a>
+            <a href="#contact" class="text-gray-600 hover:text-amber-600 transition-colors duration-300" onclick="hideMenu()">お問い合わせ</a>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main class="mt-20">
+        <!-- Hero Section -->
+        <section id="hero" class="relative h-screen flex items-center justify-center text-white text-center" style="background-image: url('https://s6.imgcdn.dev/YidYlt.jpg'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="relative z-10 max-w-4xl mx-auto px-6">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight tracking-wide">
+                    海が育む、至高の一粒
+                </h1>
+                <p class="mt-4 text-lg md:text-2xl font-light">
+                    豊かな海で育ったあや牡蠣を、皆様の食卓へお届けします。
+                </p>
+                <a href="#business" class="mt-8 inline-block px-8 py-3 bg-amber-600 text-white font-semibold rounded-full shadow-lg hover:bg-amber-700 transition-transform transform hover:scale-105 duration-300">
+                    事業内容を見る
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">会社概要</h2>
+                    <p class="mt-4 text-lg text-gray-600">あや牡蠣養殖株式会社について</p>
+                </div>
+                <div class="mt-12 flex flex-col md:flex-row items-center md:space-x-12">
+                    <div class="md:w-1/2">
+                        <!-- ここに会社紹介の画像を挿入 -->
+                        <img src="https://s6.imgcdn.dev/YidDMw.jpg" alt="会社の風景" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                    <div class="md:w-1/2 mt-8 md:mt-0">
+                        <h3 class="text-2xl font-semibold text-gray-800">私たちのこだわり</h3>
+                        <p class="mt-4 text-gray-600 leading-relaxed">
+                            あや牡蠣養殖株式会社は、豊かな自然環境に恵まれた場所で、最高のあや牡蠣を育てることに情熱を注いでいます。海水の清浄度を常に保ち、牡蠣がストレスなく成長できる環境を徹底管理。化学薬品に頼らず、自然の力を最大限に活かした養殖方法を実践しています。
+                        </p>
+                        <p class="mt-4 text-gray-600 leading-relaxed">
+                            私たちの牡蠣は、ぷりぷりでイキスギィ！な味わいが特徴。一口食べれば、海の恵みと私たちの愛情を感じていただけることでしょう。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Section -->
+        <section id="business" class="py-20 bg-gray-200">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">事業内容</h2>
+                    <p class="mt-4 text-lg text-gray-600">安心・安全な牡蠣を皆様へ</p>
+                </div>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <!-- Business Card 1: Cultivation -->
+                    <div class="bg-white p-8 rounded-lg shadow-xl transform transition-transform duration-300 hover:scale-105">
+                        <div class="flex items-center justify-center w-16 h-16 bg-amber-600 rounded-full text-white mb-6 mx-auto">
+                            <i class="fas fa-water text-3xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-center text-gray-800">あや牡蠣の養殖</h3>
+                        <p class="mt-4 text-gray-600 leading-relaxed text-center">
+                            清らかな海域で、牡蠣一つ一つを丁寧に育てています。日々の水質管理と健康状態のチェックを欠かさず、安全で美味しい牡蠣を提供するための努力を続けています。
+                        </p>
+                        <!-- ここに養殖の画像を挿入 -->
+                        <img src="https://s6.imgcdn.dev/YiWJBL.jpg" alt="養殖風景" class="rounded-lg mt-6 shadow-md w-full h-auto">
+                    </div>
+                    <!-- Business Card 2: Processing -->
+                    <div class="bg-white p-8 rounded-lg shadow-xl transform transition-transform duration-300 hover:scale-105">
+                        <div class="flex items-center justify-center w-16 h-16 bg-amber-600 rounded-full text-white mb-6 mx-auto">
+                            <i class="fas fa-cogs text-3xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-center text-gray-800">加工・出荷</h3>
+                        <p class="mt-4 text-gray-600 leading-relaxed text-center">
+                            新鮮な牡蠣を、最新の衛生管理基準に基づいた施設で加工。殻付き、むき身、冷凍など、様々なニーズに応じた形で皆様の食卓へお届けします。
+                        </p>
+                        <!-- ここに加工の画像を挿入 -->
+                        <img src="https://s6.imgcdn.dev/YiWoba.jpg" alt="加工風景" class="rounded-lg mt-6 shadow-md w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-white">
+            <div class="container mx-auto px-6 max-w-3xl">
+                <div class="text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">お問い合わせ</h2>
+                    <p class="mt-4 text-lg text-gray-600">お気軽にご連絡しないでください</p>
+                </div>
+                <form class="mt-12 space-y-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 font-medium">お名前</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-amber-500 focus:ring focus:ring-amber-200 focus:ring-opacity-50 transition-colors duration-300">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 font-medium">メールアドレス</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-amber-500 focus:ring focus:ring-amber-200 focus:ring-opacity-50 transition-colors duration-300">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-gray-700 font-medium">メッセージ</label>
+                        <textarea id="message" name="message" rows="5" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-amber-500 focus:ring focus:ring-amber-200 focus:ring-opacity-50 transition-colors duration-300"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="px-8 py-3 bg-amber-600 text-white font-semibold rounded-full shadow-lg hover:bg-amber-700 transition-transform transform hover:scale-105 duration-300">
+                            送信する
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 あや牡蠣養殖株式会社 All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuButton = document.getElementById('menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMenuButton = document.getElementById('close-menu');
+
+        function showMenu() {
+            mobileMenu.classList.remove('-translate-x-full');
+        }
+
+        function hideMenu() {
+            mobileMenu.classList.add('-translate-x-full');
+        }
+
+        menuButton.addEventListener('click', showMenu);
+        closeMenuButton.addEventListener('click', hideMenu);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
