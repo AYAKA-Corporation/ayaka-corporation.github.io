@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あやか製菓 | 心ときめくお菓子</title>
+        <!--OGP-->
+    <meta property="og:title" content="あやか製菓 | 心ときめくお菓子" />
+    <meta property="og:image" content="https://s6.imgcdn.dev/YkIi1B.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:description" content="あやか製菓は、日常に小さな幸せを届けるお菓子作りをしています。
+                素材にこだわり、一つひとつ心を込めて作ったお菓子で、あなたの笑顔を咲かせたい。
+                さあ、甘くて心温まるひとときを一緒に過ごしませんか？" />
+    <meta property="og:site_name" content="あやか製菓" />
+    <!--Twitter Card-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="あやか製菓 | 心ときめくお菓子" />
+    <meta name="twitter:description" content="あやか製菓は、日常に小さな幸せを届けるお菓子作りをしています。
+                素材にこだわり、一つひとつ心を込めて作ったお菓子で、あなたの笑顔を咲かせたい。
+                さあ、甘くて心温まるひとときを一緒に過ごしませんか？" />
+    <meta name="twitter:image" content="https://s6.imgcdn.dev/YkIi1B.jpg" />
+        <link rel="icon" href="https://s6.imgcdn.dev/YkIi1B.jpg" />
+    <!-- Tailwind CSS CDNを読み込み -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google FontsからInterフォントを読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+        <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* 会社紹介セクションの背景画像 */
+        .hero-section {
+            background-image: url('https://s6.imgcdn.dev/YkIi1B.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            z-index: 0;
+        }
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* 背景を暗くして文字を読みやすくする */
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- ヘッダー -->
+    <header class="bg-white shadow-lg py-4">
+        <div class="container mx-auto px-4 md:px-8 flex justify-center items-center">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-pink-500">
+                あやか製菓
+            </h1>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main class="container mx-auto px-4 md:px-8 py-12">
+
+        <!-- 会社紹介セクション -->
+        <section class="text-center mb-16 rounded-xl overflow-hidden py-24 hero-section text-white">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                心ときめく、おいしい時間。
+            </h2>
+            <p class="text-lg max-w-2xl mx-auto">
+                あやか製菓は、日常に小さな幸せを届けるお菓子作りをしています。
+                素材にこだわり、一つひとつ心を込めて作ったお菓子で、あなたの笑顔を咲かせたい。
+                さあ、甘くて心温まるひとときを一緒に過ごしませんか？
+            </p>
+        </section>
+
+        <!-- 商品一覧セクション -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            <!-- 商品カード：新聞チョコ -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div class="relative w-full h-64">
+                    <img src="https://s6.imgcdn.dev/YkICrv.jpg" alt="新聞チョコ" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl font-semibold mb-2 text-pink-500">新聞型のチョコレート</h3>
+                    <p class="text-gray-500 text-sm mb-4">(3枚入り)</p>
+                    <p class="text-gray-700">
+                        まるで本物の新聞のようなデザインが楽しいチョコレート。
+                        サクッとした食感と、濃厚なカカオの香りが口いっぱいに広がります。
+                        ユニークなサプライズにぴったりのお土産です。
+                    </p>
+                </div>
+            </div>
+
+            <!-- 商品カード：ヤジュミエールクッキー -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div class="relative w-full h-64">
+                    <img src="https://s6.imgcdn.dev/YkIIqN.jpg" alt="ヤジュミエールクッキー★" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl font-semibold mb-2 text-pink-500">ヤジュミエールクッキー★</h3>
+                    <p class="text-gray-500 text-sm mb-4">(100g入り)</p>
+                    <p class="text-gray-700">
+                        なんと、絵柄は100種類以上！開けるたびにわくわくする、サクサクのバニラクッキーです。
+                        どんな絵柄に出会えるか、開けるまでのお楽しみ。
+                    </p>
+                </div>
+            </div>
+
+            <!-- 商品カード：ずりあやサーメンクリームパイ -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div class="relative w-full h-64">
+                    <img src="https://s6.imgcdn.dev/YkIQuq.jpg" alt="ずりあやサーメンクリームパイ" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl font-semibold mb-2 text-pink-500">ずりあやザーメンクリームパイ</h3>
+                    <p class="text-gray-500 text-sm mb-4">(300g シール付き)</p>
+                    <p class="text-gray-700">
+                        何層にも重なったサクサク生地の中に、特製のどろどになったザーメンクリームがたっぷり！
+                        一口食べるとトロ顔になっちゃう、大きなパイだよ
+                        えっちな限定シールが１枚付いてくるよ。
+                    </p>
+                </div>
+            </div>
+
+            <!-- 商品カード：あやかちゃんのフタナリチンポキャンデー -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+                <div class="relative w-full h-64">
+                    <img src="https://placehold.co/600x400/FDE68A/FBBF24?text=Sorry No Image" alt="あやかちゃんのフタナリおちんぽキャンデー" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl font-semibold mb-2 text-pink-500">あやかちゃんのフタナリおちんぽキャンデー</h3>
+                    <p class="text-gray-500 text-sm mb-4">(200g)</p>
+                    <p class="text-gray-700">
+                        口の中でパン♡パン♡とはじける、不思議でえっちな食感のキャンデー！
+                        えっちなムラムラする香りが、アソコを元気にしてくれるよ。
+                        性別転換したい時にぴったり！
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="bg-pink-100 py-8 mt-12">
+        <div class="container mx-auto px-4 md:px-8 text-center text-gray-600">
+            <p>&copy; 2025 あやか製菓 All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
